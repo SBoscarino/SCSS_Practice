@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start" : "server.js",
     "scss" : "node-sass scss/style.scss public/style.css --watch"
   },
   "author": "",
