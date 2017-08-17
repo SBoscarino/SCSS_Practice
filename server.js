@@ -4,7 +4,7 @@ const express = require('express');
 const mustacheExpress = require('mustache-express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
-mongoose.connect('mongodb://localhost:27017/people', {
+mongoose.connect(process.env.MONGODB_URI, {
   useMongoClient: true
 });
 
