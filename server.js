@@ -1,5 +1,4 @@
 //before starting, changes were made to package.json to include sass.
-//changes were made to
 const express = require('express');
 const mustacheExpress = require('mustache-express');
 const mongoose = require('mongoose');
